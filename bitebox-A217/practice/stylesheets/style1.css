@@ -1,0 +1,48 @@
+/* property-name:value */
+
+ol {
+  background-color: rgb(211, 171, 248);
+}
+
+ol li {
+  background-color: aqua;
+  margin: 10px;
+}
+
+h1 {
+  background-color: plum;
+  margin: 12px;
+  padding: 30px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  position: sticky;
+}
+#box1 {
+  background-color: red;
+  left: 80px;
+  z-index: 3;
+  top: 0px;
+}
+
+#box2 {
+  background-color: rgb(64, 0, 255);
+  left: 40px;
+  top: 40px;
+  z-index: 2;
+}
+
+#box3 {
+  background-color: rgb(225, 255, 0);
+  top: 80px;
+  z-index: 1;
+}
+
+p{
+  font-size:50px;
+}
