@@ -263,10 +263,6 @@ background:red;}
     background: orangered;
 }
 
-.:hover{
-background: red;
-}
-
 .box button{
   cursor: pointer;
   background: orangered;
@@ -292,3 +288,68 @@ background: red;
   gap: 10px;
   min-width: 20px;
 }
+
+.auth{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background:linear-gradient(red,rgb(151, 151, 84));
+}
+
+.autbox
+{
+  background:rgb(169, 153, 185);
+  padding: 30px;
+  border-radius: 40px;
+  width:320px ;
+  text-align: center;
+  box-shadow: 0px 8px 25px (rgb(43, 43, 38));
+  height: 450px;
+}
+
+.autbox h2{
+  margin-bottom: 20px; 
+}
+
+.autbox input{
+width: 100%;
+padding: 7px;
+margin:10px 0px ;
+border:1px solid white ;
+border-radius: 40px;
+outline:solid ;
+}
+
+.autbox input:focus{
+  outline-color:orangered;
+}
+
+.autbox button{
+width: 100%;
+padding: 7px;
+margin:10px 0px ;
+border:1px solid white ;
+border-radius: 40px;
+outline: none;
+cursor: pointer;
+background: pink;
+text:solid black;
+transition: 1s;
+}
+
+.autbox button:hover{
+  background: rosybrown;
+ transition: 1s;
+}
+
+.autbox p{
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.autbox a{
+  color: red;
+  text-decoration: solid;
+}
+
