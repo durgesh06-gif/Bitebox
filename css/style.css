@@ -148,6 +148,7 @@ h1 {
   gap: 20px;
   /* border: 2px solid black; */
   padding: 20px;
+  overflow: auto;
 }
 
 .icon-box {
@@ -353,3 +354,218 @@ transition: 1s;
   text-decoration: solid;
 }
 
+.deal{
+  padding: 40px;
+  
+}
+
+.dealh{
+  background: linear-gradient(black,grey);
+  padding:50px ;
+  text-align: center;
+  border-radius: 50px;
+  margin-bottom: 40px;
+  color: azure;
+  transform: 1s;
+}
+
+.dealh h1{
+  font-size: 40px;
+}
+
+.dealh p{
+  font-size: 20px;
+}
+
+title{
+  margin: 30px 20px;
+  font-size: 25px;
+  justify-content: center;
+  text-align: center;
+  color: 2px solid black;
+}
+
+.cards{
+  background: whitesmoke;
+  padding: 25px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 0 5px 15px black ;
+  gap: 10px;
+  transform:translateY(-8px);
+  
+}
+
+.cards img{
+  width: 500px;
+  padding: 50px;
+  border-radius: 0;
+  margin: 10px;
+  object-fit: fill;
+}
+
+.cards button{
+  background: orangered;
+  border-radius: 50px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+.cards button:hover{
+background: red;
+ cursor: pointer;
+ transform:translate(-8px);
+}
+
+.cards h3{
+  margin: 5px;
+  margin-bottom: 10px 0;
+  color: 3px solid black;
+}
+
+.cards span{
+  text-decoration: line-through;
+  margin-right: 10px;
+}
+
+.cont{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  gap:20px;
+
+}
+.title{
+  margin: 30px 0 20px;
+  font-size: 28px;
+  color: #000;
+}
+
+.spec{
+  margin: 10px;
+  padding: 25px;
+  border-radius: 10px;
+  background: white;
+   box-shadow: 0 5px 15px black;
+   width: 300px;
+  grid-template-columns: repeat(3,1fr);
+  transform:translateY(-8px);
+   
+}
+
+.spec h3{
+  margin-bottom: 10px;
+  text-align: center;
+  color:  5px solid black;
+}
+
+.spec p{
+  text-align: center;
+}
+
+.spec span{
+display:inline-block ;
+margin-top: 10px;
+padding: 5px 10px;
+background: #000
+color(white);
+border-radius: 5px;
+text-align: center;
+}
+
+.spec button{
+  background: orangered;
+  width:80px ;
+  padding: 5px;
+  border-radius: 50px;
+  cursor: pointer;
+  
+}
+
+.spec button:hover{
+  background: red;
+}
+
+.menu-containe{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+
+.combo{
+  padding: 40px;
+  background: white;
+  overflow: auto;
+}
+
+.page{
+  overflow: auto;
+}
+
+.red{border-top: 4px solid red;}
+.yellow{border-top: 4px solid yellow;}
+.green{border-top: 4px solid green;}
+.blue{border-top: 4px solid blue;}
+
+footer ul{
+  display:block ;
+  list-style: none;
+  padding: 0;
+}
+
+footer{
+  background: #000;
+  color: white;
+  padding: 40px;
+}
+
+.footer-container{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 30px;
+}
+
+.footer-box h2,.footer-box h3{
+color: white;
+margin-bottom: 15px;
+}
+
+.footer-box span{
+  color: red;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover{
+  color: red;
+}
+
+.foobut{
+text-align: center;
+margin-top: 30px;
+padding-top: 10px;
+border-top: 1px solid rgb(133, 123, 123);
+font-size: 14px;
+}
+
+.footer-box ul{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.special-icons a{
+display: inline-block;
+margin-right: 10px;
+font-size: 30px;
+color: white;
+padding: 10px;
+border-radius:50%;
+background: #000;
+}
+
+.special-icons a:hover{
+  background: red;
+  color: white;
+}
