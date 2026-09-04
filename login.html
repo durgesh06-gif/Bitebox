@@ -55,17 +55,30 @@
         <div class="autbox">
             <h2>Login TO Bite<span>Box</span></h2>
             <form action="">
-                <input type="text" placeholder="Enter Name " required><br>
-                <input type="email" placeholder="enter your mail " required><br>
-                <input type="password" placeholder="enter pass " required><br>            
-                <input type="password" placeholder="confirm passs " required><br>
-                <button>Submit</button><br>
-            </form> 
+                <input type="text" placeholder="Enter Name " id="name" required><br>
+                <input type="email" placeholder="enter your mail " id="mail" required><br>
+                <div class="password-field">
+                  <input type="password" placeholder="Enter password" id="password" required>
+                  <button
+                    type="button"
+                    class="password-toggle"
+                    aria-label="Show password"
+                    onclick="togglePassword()"
+                  >
+                    <i class="fa-solid fa-eye"></i>
+                  </button>
+                </div>
+            <button type="button" onclick="login()">Submit</button><br>
+            </form>
+            <p id="error">Error message</p> 
             <p>   
-                <p>Don,t Have an Account signiup<br></p>
+                <p>Don,t Have an Account signiup</p>
                 <a href="signup.html"><button>signup</button></a><br>
             </p>
         </div>
     </section>
+<script src="js/script.js">
+
+</script>
   </body>
 </html>
