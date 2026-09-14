@@ -14,7 +14,7 @@ function login() {
     if (email === "admin" && password === "123") {
         localStorage.setItem("isLoggedIn", "true");
         localStorage.setItem("user", email);
-        window.location.href = "index.html";
+        window.location.href = "cart.html";
     }
     else {
         errorMessage.textContent = "Invalid email or password.";
